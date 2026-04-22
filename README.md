@@ -23,12 +23,12 @@ The system architecture is divided into three main layers: the Perception Layer 
 
 ### 📐 System Flowchart
 The following flowchart illustrates the logical sequence of data acquisition, processing, and fire classification:
-![System Design Flowchart](Media/system_design_flowchart.jpg)
+![System Design Flowchart](Media/system_design_flowchart.png)
 *Figure 1: Comprehensive System Design and Logic Flow.*
 
 ### 🌐 Network Topology
 The deployment strategy involves a cluster-based WSN topology to ensure robust data transmission even in dense forest environments:
-![Network Topology](Media/network_topology.jpg)
+![Network Topology](Media/network_topology.png)
 *Figure 2: WSN Topology and Node Distribution.*
 
 ---
