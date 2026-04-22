@@ -1,0 +1,167 @@
+-- Using default output directory /home/ubuntu/ns-allinone-3.38/ns-3.38/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- [33mEigen was not found[0m
+-- GTK3 was found.
+-- LibXML2 was found.
+-- [33mPython: an incompatible version of Python was found, python bindings will be disabled[0m
+-- [33mVisualizer requires Python bindings[0m
+-- [33mGSL was not found. Continuing without it.[0m
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk convert dvipng[0m
+-- Precompiled headers were enabled
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mfind_external_library: brite was not found. Missing headers: "Brite.h" and missing libraries: "brite".[0m
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mfind_external_library: click was not found. Missing headers: "simclick.h" and missing libraries: "nsclick click".[0m
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mfind_external_library: openflow was not found. Missing headers: "openflow.h" and missing libraries: "openflow".[0m
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/test
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wave
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/ubuntu/ns-allinone-3.38/ns-3.38/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (missing dependency)[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : [32mON[0m
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [31mOFF (missing dependency)[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (missing dependency)[0m
+ns-3 OpenFlow Integration     : [31mOFF (missing dependency)[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (missing dependency)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [31mOFF (missing dependency)[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : [32mON[0m
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  netanim                   
+network                   nix-vector-routing        olsr                      
+point-to-point            point-to-point-layout     propagation               
+sixlowpan                 spectrum                  stats                     
+tap-bridge                test                      topology-read             
+traffic-control           uan                       virtual-net-device        
+wave                      wifi                      wimax                     
+
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  visualizer                
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/ns-allinone-3.38/ns-3.38/cmake-cache
+Consolidate compiler generated dependencies of target stdlib_pch-default
+Consolidate compiler generated dependencies of target stdlib_pch_exec
+Consolidate compiler generated dependencies of target libstats-obj
+Consolidate compiler generated dependencies of target libcore-obj
+Consolidate compiler generated dependencies of target libbridge-obj
+Consolidate compiler generated dependencies of target libwimax-obj
+Consolidate compiler generated dependencies of target libtraffic-control-obj
+Consolidate compiler generated dependencies of target libnetwork-obj
+Consolidate compiler generated dependencies of target libmobility-obj
+Consolidate compiler generated dependencies of target libpropagation-obj
+Consolidate compiler generated dependencies of target libantenna-obj
+Consolidate compiler generated dependencies of target libinternet-obj
+Consolidate compiler generated dependencies of target libenergy-obj
+Consolidate compiler generated dependencies of target libwifi-obj
+Consolidate compiler generated dependencies of target libaodv-obj
+Consolidate compiler generated dependencies of target libspectrum-obj
+Consolidate compiler generated dependencies of target libbuildings-obj
+Consolidate compiler generated dependencies of target libapplications-obj
+Consolidate compiler generated dependencies of target libcsma-obj
+Consolidate compiler generated dependencies of target libcsma-layout-obj
+Consolidate compiler generated dependencies of target libpoint-to-point-obj
+Consolidate compiler generated dependencies of target libdsdv-obj
+Consolidate compiler generated dependencies of target libconfig-store-obj
+Consolidate compiler generated dependencies of target raw-sock-creator
+Consolidate compiler generated dependencies of target libdsr-obj
+Consolidate compiler generated dependencies of target libfd-net-device-obj
+Consolidate compiler generated dependencies of target tap-device-creator
+Consolidate compiler generated dependencies of target libflow-monitor-obj
+Consolidate compiler generated dependencies of target liblr-wpan-obj
+Consolidate compiler generated dependencies of target libvirtual-net-device-obj
+Consolidate compiler generated dependencies of target libinternet-apps-obj
+Consolidate compiler generated dependencies of target libnetanim-obj
+Consolidate compiler generated dependencies of target libmesh-obj
+Consolidate compiler generated dependencies of target libpoint-to-point-layout-obj
+Consolidate compiler generated dependencies of target libuan-obj
+Consolidate compiler generated dependencies of target liblte-obj
+Consolidate compiler generated dependencies of target libwave-obj
+Consolidate compiler generated dependencies of target libnix-vector-routing-obj
+Consolidate compiler generated dependencies of target libolsr-obj
+Consolidate compiler generated dependencies of target libsixlowpan-obj
+Consolidate compiler generated dependencies of target libtap-bridge-obj
+Consolidate compiler generated dependencies of target libtopology-read-obj
+[  0%] Building CXX object scratch/CMakeFiles/scratch_wildfire-detection.dir/wildfire-detection.cc.o
+[01m[K/home/ubuntu/ns-allinone-3.38/ns-3.38/scratch/wildfire-detection.cc:7:10:[m[K [01;31m[Kfatal error: [m[Kns3/rpl-module.h: No such file or directory
+    7 | #include [01;31m[K"ns3/rpl-module.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[3]: *** [scratch/CMakeFiles/scratch_wildfire-detection.dir/build.make:78: scratch/CMakeFiles/scratch_wildfire-detection.dir/wildfire-detection.cc.o] Error 1
+gmake[2]: *** [CMakeFiles/Makefile2:17234: scratch/CMakeFiles/scratch_wildfire-detection.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:17240: scratch/CMakeFiles/scratch_wildfire-detection.dir/rule] Error 2
+gmake: *** [Makefile:5939: scratch_wildfire-detection] Error 2
